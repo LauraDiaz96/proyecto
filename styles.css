@@ -94,7 +94,7 @@ section p, section ul {
 
 #inicio{
     display: flex;
-    overflow: auto;
+    overflow: auto;  
     
 }
 
