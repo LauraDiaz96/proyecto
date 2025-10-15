@@ -286,7 +286,7 @@ section p, section ul {
 footer {
     text-align: center; /* Centra el texto. */
     padding: 20px; /* Espaciado interno. */
-    background-color: #B78DF2; /* Fondo semitransparente. */
+    background-color: #A65D03; /* Fondo semitransparente. */
     position: relative; /* Permite posicionarlo según el flujo normal del documento. */
     color: #ffffff; /* Texto blanco. */
     font-size: 0.9em; /* Texto más pequeño para el pie. */
