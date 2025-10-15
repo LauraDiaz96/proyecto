@@ -8,10 +8,10 @@
 
 /* Estilo global para el cuerpo del documento */
 body {
-    font-family:'Poppins', 'Lucida Sans', sans-serif;/* Define la fuente principal del sitio. */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;/* Define la fuente principal del sitio. */
     color: black; /* Establece el color del texto en blanco. */
     line-height: 1.6; /* Mejora la legibilidad al establecer la altura de línea. */
-    background-color: #D9BB84;
+    background-color: #EFD5F2;
 }
 
 /* Estilo del encabezado */
@@ -19,13 +19,12 @@ header {
     position: fixed; /* Hace que el encabezado permanezca visible al hacer scroll. */
     top: 0; /* Lo posiciona en la parte superior de la página. */
     width: 100%; /* Abarca todo el ancho de la ventana. */
-    background-color: #8C4C27; /* Fondo semitransparente para contraste. */
+    background-color: #B78DF2; /* Fondo semitransparente para contraste. */
     padding: 10px 20px; /* Espaciado interno para los elementos del encabezado. */
     display: flex; /* Utiliza diseño flexible para organizar los elementos horizontalmente. */
     justify-content: space-between; /* Distribuye los elementos en extremos opuestos. */
     align-items: center; /* Alinea verticalmente los elementos del encabezado. */
     z-index: 1000; /* Asegura que el encabezado esté siempre encima de otros elementos. */
-    border: 4px  rgb(186, 165, 115)
 }
 
 nav {
@@ -40,16 +39,15 @@ nav {
 header nav ul {
     list-style: none; /* Elimina los puntos de lista predeterminados. */
     display: flex; /* Muestra los elementos de la lista en una fila. */
-    align-items: center; /****************centrar de arriba a abajo el texto*********/
     gap: 2em; /* Espaciado entre los elementos de la lista. */
-    margin-top: 0.2rem;
-    margin-left: 180px; /****************centrar de izquiertda a derecha el texto*********/
+    margin-top: 0.4rem;
+    margin-left: 15px;
 }
 
 /* Estilo de los enlaces de la barra de navegación */
 header nav ul li a {
     text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces. */
-    color: #f1e3c6; /* Color de texto blanco.(Color del texto en menu del encabezado) */
+    color: black; /* Color de texto blanco. */
     font-weight: bold; /* Resalta los enlaces con texto en negrita. */
     padding: 5px 10px; /* Espaciado interno en los enlaces. */
     border-radius: 4px; /* Bordes redondeados para los enlaces. */
@@ -58,9 +56,9 @@ header nav ul li a {
 
 /* Efecto al pasar el cursor sobre los enlaces */
 header nav ul li a:hover {
-    color: #dab775; /* Cambia el color del texto a negro. (Color dentro del cuadro)*/
-    background-color: #a65d0359; /*(Color del cuadro)*/
-}    
+    color: #000; /* Cambia el color del texto a negro. */
+    background-color: #935fdb ;
+}
 
 /* Espaciado superior para evitar solapamiento con el encabezado fijo */
 main {
@@ -73,7 +71,7 @@ section {
     min-width: 100%;
     padding: 60px 20px; /* Espaciado interno para el contenido. */
     text-align: center; /* Centra el texto. */
-    background-color: #F0EEB9; /* Fondo semitransparente para legibilidad. */
+    background-color: white; /* Fondo semitransparente para legibilidad. */
     margin-bottom: 20px; /* Espaciado entre secciones. */
     justify-content: center;
 }
@@ -118,10 +116,12 @@ section p, section ul {
     margin: 50px 0px;
 }
 
-
 #sobre-nosotros{
     display: flex;
-    overflow: auto;  
+    overflow: auto;
+    
+    
+    
 }
 
 .nosotros img{
@@ -130,6 +130,7 @@ section p, section ul {
 
 .nosotros{
     margin: 50px 50px 34px ;  
+
 }
 
 .nosotros h2{
@@ -421,4 +422,3 @@ footer {
         font-size: 0.8em; /* Reduce el tamaño del texto en el pie de página para pantallas pequeñas. */
     }
 }
-
